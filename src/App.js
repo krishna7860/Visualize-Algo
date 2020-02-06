@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import bubbleSort from "./algorithms/sorting/BubbleSort";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Sorting from "./components/Sorting/Sorting";
+import { Route } from "react-router-dom";
+import Home from "./components/Home/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar></Navbar>
+        <Route path="/" component={Home}></Route>
+        <Route path="/sorting" component={Sorting}></Route>
+      </div>
+    );
+  }
 }
-
-export default App;
+// below bar Numbers
+// Sorting Name
+// Change Speed

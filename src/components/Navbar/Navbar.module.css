@@ -1,0 +1,36 @@
+.header {
+  height: 64px;
+  padding: 0 50px;
+  line-height: 64px;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background-clip: text;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: left;
+  font-size: 18px;
+}
+
+.brand {
+  /* color: black; */
+  font-weight: bold;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background-clip: text;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px 10px;
+}
+.listItem {
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.listItem:hover {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
