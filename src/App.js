@@ -11,7 +11,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Navbar></Navbar>
-        <Route path="/" component={Home}></Route>
+        <Route path="/" exact component={Home}></Route>
         <Route path="/sorting" component={Sorting}></Route>
       </div>
     );
