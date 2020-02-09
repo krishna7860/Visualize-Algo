@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  justify-content: flex-end;
+}
+
+.grid > div {
+  width: 5px;
+  background: blueviolet;
+  color: white;
+  margin: 0px 5px;
+  padding: 5px;
+}

@@ -5,7 +5,7 @@ export default class Home extends Component {
   render() {
     return (
       <div style={{ padding: "10rem 0" }}>
-        <Title level={1}>Choose Any Alogorithm ....</Title>
+        <Title level={1}>Choose Any Alogorithm .</Title>
       </div>
     );
   }
